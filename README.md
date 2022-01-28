@@ -17,6 +17,9 @@ git clone https://github.com/b4530h/Bd-SMS-BOmB34 🥀
 cd Bd-SMS-BOmB34 🥀
 
 
+git pull🥱
+
+
 python BOM1.py🥀
 
 
