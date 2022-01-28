@@ -46,7 +46,7 @@ end = '\033[0m'
 
 purple="\033[0;35m"
 
-logo=(green+red""" 
+logo=(green+red+""" 
 
 
 
